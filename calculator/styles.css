@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(231, 195, 151);
+}
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: black;
+  color: rgb(227, 189, 142);
+  cursor: pointer;
+}
+.calc {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.content {
+  background: #070707;
+  padding: 20px;
+  border-radius: 10px;
+}
+.content form input {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.clear {
+  background-color: rgb(133, 112, 104);
+  color: white;
+}
+form .output {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 0;
+}
+form .output input {
+  flex: 1;
+  font-size: 25px;
+}
